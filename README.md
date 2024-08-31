@@ -1,18 +1,48 @@
-## Getting Started
+<h1 align="center">
+  <br>
+    Brick Breaker
+  <br>
+</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<h4 align="center">A classic Brick Breaker game built with Java.</h4>
 
-## Folder Structure
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a>
+</p>
 
-The workspace contains two folders by default, where:
+## Key Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* **Classic Gameplay** - Enjoy the timeless Brick Breaker experience.
+* **Smooth Controls** - Responsive controls for precise paddle movement.
+* **Increasing Difficulty** - The game becomes more challenging as you progress.
+* **Scoring System** - Earn points by breaking bricks and try to beat your high score.
+* **Game Restart** - Easily restart the game after losing or winning.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## How To Use
+To clone and run this game locally, you'll need [Git](https://git-scm.com) and a Java Development Kit (JDK) installed. From your command line, run:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```
+# Clone this repository
+$ git clone https://github.com/eric-zamora-tech/brick-breaker
 
-## Dependency Management
+# Go into the repository
+$ cd brick-breaker
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Compile the Java files
+$ javac brickBreaker/Main.java
+
+# Run the game
+$ java brickBreaker.Main
+```
+
+> Note: This game runs locally on your machine, and you can play it by compiling and running the Java files.
+
+## Credits
+This game uses the following resources:
+- **freeCodeCamp** - [Java Game Programming - Develop a Brick Breaker Game](https://www.youtube.com/watch?v=K9qMm3JbOH0)
+- **Java** - For game logic and implementation.
+- **Swing** - For creating the graphical user interface (GUI).
+- **Awt** - For handling graphics and events.
+
